@@ -35,6 +35,8 @@ async function main() {
         '\nНу ти приколіст, думав я не помічу? Давай пиши валідне число.\n',
       );
       await delay(1000);
+
+      continue;
     }
 
     const { bulls, cows } = getBullsAndCows(answer, randomNumber);
