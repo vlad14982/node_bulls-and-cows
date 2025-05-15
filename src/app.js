@@ -41,8 +41,6 @@ async function main() {
 
     const { bulls, cows } = getBullsAndCows(answer, randomNumber);
 
-    console.log(randomNumber);
-
     if (Number(answer) === randomNumber) {
       await delay(1000);
       console.log('\nВсе вірно! Ти вангуєш як бог, тримай тортик 🍰\n');
